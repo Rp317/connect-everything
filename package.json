@@ -1,0 +1,22 @@
+{
+  "name": "react-ts",
+  "version": "0.0.0",
+  "private": true,
+  "strict": true,
+  "dependencies": {
+    "@types/react": "^16.8.2",
+    "@types/react-dom": "^16.8.0",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "scripts": {
+    "build:tailwind": "tailwindcss build src/tailwind.css -o src/tailwind.generated.css",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts-ts": "latest"
+  }
+}
