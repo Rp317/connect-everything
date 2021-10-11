@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
+import Tabs from "./Tabs";
 
 interface AppProps { }
 interface AppState {
@@ -16,7 +17,6 @@ class App extends Component<AppProps, AppState> {
   render() {
     return (
       <div>
-        
         <div id="heading">
           <h1 className="text-3xl text-green-400 text-center">SuperFit</h1>
         </div>
@@ -36,5 +36,5 @@ class App extends Component<AppProps, AppState> {
     );
   }
 }
-
+console.log("yet")
 render(<App />, document.getElementById('root'));
