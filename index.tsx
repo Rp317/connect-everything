@@ -17,6 +17,21 @@ class App extends Component<AppProps, AppState> {
     return (
       <div>
         
+        <div id="heading">
+          <h1 className="text-3xl text-green-400 text-center">SuperFit</h1>
+        </div>
+        
+        <div id="paragraphs">
+        <h2>It's litteraly the all-in-one app to store all your apps!</h2>
+        <h2>Cutstom placements for your apps!</h2>
+        <h2>Tired of diffrent themes for each app? How about have one cool theme instead?</h2>
+        <h2>You can intigrate gmail, discord, github, spotify, etc!</h2>
+        </div>
+
+        <div id="ending">
+          <h1>Download now!</h1>
+          <h5>(please wait not yet avalible though)</h5>
+        </div>
       </div>
     );
   }
