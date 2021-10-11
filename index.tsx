@@ -36,5 +36,5 @@ class App extends Component<AppProps, AppState> {
     );
   }
 }
-console.log("yet")
+
 render(<App />, document.getElementById('root'));
