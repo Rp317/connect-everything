@@ -6,9 +6,9 @@
   "dependencies": {
     "@types/react": "16.8.2",
     "@types/react-dom": "16.8.0",
-    "rc-tabs": "^11.10.1",
     "react": "16.8.0",
-    "react-dom": "16.8.0"
+    "react-dom": "16.8.0",
+    "react-tabs": "^3.2.2"
   },
   "scripts": {
     "build:tailwind": "tailwindcss build src/tailwind.css -o src/tailwind.generated.css",
