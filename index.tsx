@@ -18,9 +18,11 @@ class App extends Component<AppProps, AppState> {
     return (
       <div>
         <Tabs>
-          <TabList className="relative bg-green-500 font-extrabold">
-            <Tab>Who we are</Tab>
-            <Tab>download</Tab>
+        <img src="https://cdn.discordapp.com/attachments/839915088017227806/897618742471692308/unknown.png"></img>
+          <TabList className="relative font-extrabold inline-block rounded-lg bg-green-500">
+            <Tab className="rounded-lg pb-4 bg-green-500">Who we are</Tab>
+            <Tab className="pb-4"> team</Tab>
+            <Tab className="rounded-lg bg-green-500  pb-4">download</Tab>
           </TabList>
           <TabPanel>
             <div id="heading">
@@ -41,7 +43,10 @@ class App extends Component<AppProps, AppState> {
             </div>
           </TabPanel>
           <TabPanel>
-            <h2>Any content 2</h2>
+            J u s t  M e
+          </TabPanel>
+          <TabPanel>
+            
           </TabPanel>
         </Tabs>
       </div>
