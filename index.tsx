@@ -50,9 +50,9 @@ class App extends Component<AppProps, AppState> {
             <h1 className="text-center">test</h1>
             <div className="grid grid-cols-3 gap-x-8 gap-y-5 text-center">
             <h1 className="rounded-full items-center w-16 bg-red-600 ">e</h1>
-            <h2>a</h2>
-            <p>GAMES</p>
-            <h3>shit</h3>
+            <h2 className="rounded-full items-center w-16 bg-red-600 ">a</h2>
+            <p className="rounded-full items-center w-16 bg-red-600 ">GAMES</p>
+            <h3 className="rounded-full items-center w-16 bg-red-600 ">shit</h3>
             </div>
 
           </TabPanel>
