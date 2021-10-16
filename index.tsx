@@ -19,7 +19,7 @@ class App extends Component<AppProps, AppState> {
       <div>
         <Tabs>
         <img src="https://cdn.discordapp.com/attachments/839915088017227806/897618742471692308/unknown.png" className="relative z-0"></img>
-        <button className="absolute top-0 z-10 bg-transparent" onClick={() => { i = i + 1, (i % 2) ? document.getElementById("tabs").style.display = "block" : document.getElementById("tabs").style.display = "none"}} >a</button>
+        <button className="absolute w-16 h-16 top-0 z-10 align-middle bg-transparent p-4" onClick={() => { i = i + 1, (i % 2) ? document.getElementById("tabs").style.display = "block" : document.getElementById("tabs").style.display = "none"}} ></button>
           <TabList className="absolute font-extrabold inline-block rounded-lg bg-green-500 hidden focus: block" id="tabs">
             <Tab className="rounded-lg pb-4 bg-green-500 block">Who we are</Tab>
             <Tab className="pb-4 block"> team</Tab>
