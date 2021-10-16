@@ -10,19 +10,20 @@ class App extends Component<AppProps, AppState> {
   constructor(props) {
     super(props);
   }
-
   //classname="..." for tailwind css
   //try to make something that connects all the things. (includes discord, gmail, github, spotify, youtube and more!)
   //*ambition intensifys*
   render() {
+    let i:number = 1;
     return (
       <div>
         <Tabs>
-        <img src="https://cdn.discordapp.com/attachments/839915088017227806/897618742471692308/unknown.png"></img>
-          <TabList className="relative font-extrabold inline-block rounded-lg bg-green-500">
-            <Tab className="rounded-lg pb-4 bg-green-500">Who we are</Tab>
-            <Tab className="pb-4"> team</Tab>
-            <Tab className="rounded-lg bg-green-500  pb-4">download</Tab>
+        <img src="https://cdn.discordapp.com/attachments/839915088017227806/897618742471692308/unknown.png" className="relative z-0"></img>
+        <button className="absolute top-0 z-10 bg-transparent" onClick={() => { i = i + 1, (i % 2) ? document.getElementById("tabs").style.display = "block" : document.getElementById("tabs").style.display = "none"}} >a</button>
+          <TabList className="absolute font-extrabold inline-block rounded-lg bg-green-500 hidden focus: block" id="tabs">
+            <Tab className="rounded-lg pb-4 bg-green-500 block">Who we are</Tab>
+            <Tab className="pb-4 block"> team</Tab>
+            <Tab className=" block rounded-lg bg-green-500  pb-4">download</Tab>
           </TabList>
           <TabPanel>
             <div id="heading">
@@ -59,5 +60,4 @@ function tabs() {
   let c = a + b;
   console.log(c);
 }
-tabs();
 render(<App />, document.getElementById('root'));
