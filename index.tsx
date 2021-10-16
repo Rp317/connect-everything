@@ -47,7 +47,14 @@ class App extends Component<AppProps, AppState> {
             J u s t  M e
           </TabPanel>
           <TabPanel>
-            
+            <h1 className="text-center">test</h1>
+            <div className="grid grid-cols-3 gap-x-8 gap-y-5 text-center">
+            <h1 className="rounded-full items-center w-16 bg-red-600 ">e</h1>
+            <h2>a</h2>
+            <p>GAMES</p>
+            <h3>shit</h3>
+            </div>
+
           </TabPanel>
         </Tabs>
       </div>
