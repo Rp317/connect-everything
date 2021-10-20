@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import './accurateIndex.css';
 interface AppProps {}
 interface AppState {
   name: string;
@@ -18,14 +19,15 @@ class App extends Component<AppProps, AppState> {
     return (
       <div>
         <Tabs>
-        <img src="https://cdn.discordapp.com/attachments/839915088017227806/897618742471692308/unknown.png" className="relative z-0"></img>
-        <button className="absolute w-16 h-16 top-0 z-10 align-middle bg-transparent p-4" onClick={() => { i = i + 1, (i % 2) ? document.getElementById("tabs").style.display = "block" : document.getElementById("tabs").style.display = "none"}} ></button>
+        <img src="https://icon-library.com/images/drop-down-menu-icon/drop-down-menu-icon-9.jpg" className="sticky z-0 w-24 h-20 bg-transparent"></img>
+        <button className="absolute w-24 h-8 top-0 z-10 align-middle bg-transparent p-4" onClick={() => { i = i + 1, (i % 2) ? document.getElementById("tabs").style.display = "block" : document.getElementById("tabs").style.display = "none"}} id="pp"></button>
           <TabList className="absolute font-extrabold inline-block rounded-lg bg-green-500 hidden focus: block" id="tabs">
             <Tab className="rounded-lg pb-4 bg-green-500 block">Who we are</Tab>
             <Tab className="pb-4 block"> team</Tab>
             <Tab className=" block rounded-lg bg-green-500  pb-4">download</Tab>
           </TabList>
           <TabPanel>
+            <div id="stuffs">
             <div id="heading">
               <h1 className="text-3xl text-green-400 text-center">SuperFit</h1>
             </div>
@@ -39,8 +41,9 @@ class App extends Component<AppProps, AppState> {
               <h2>You can intigrate gmail, discord, github, spotify, etc!</h2>
             </div>
             <div id="ending">
-              <h1 id="shit">Download now!</h1>
+              <h1>Download now!</h1>
               <h5>(please wait not yet avalible though)</h5>
+            </div>
             </div>
           </TabPanel>
           <TabPanel>
