@@ -19,7 +19,7 @@ class App extends Component<AppProps, AppState> {
     return (
       <div>
         <Tabs>
-        <img src="https://icon-library.com/images/drop-down-menu-icon/drop-down-menu-icon-9.jpg" className="sticky z-0 w-24 h-20 bg-transparent"></img>
+        <img src="https://icon-library.com/images/drop-down-menu-icon/drop-down-menu-icon-9.jpg" className=" z-0 w-24 h-20 bg-transparent"></img>
         <button className="absolute w-24 h-8 top-0 z-10 align-middle bg-transparent p-4" onClick={() => { i = i + 1, (i % 2) ? document.getElementById("tabs").style.display = "block" : document.getElementById("tabs").style.display = "none"}} id="pp"></button>
           <TabList className="absolute font-extrabold inline-block rounded-lg bg-green-500 hidden focus: block" id="tabs">
             <Tab className="rounded-lg pb-4 bg-green-500 block">Who we are</Tab>
@@ -56,6 +56,38 @@ class App extends Component<AppProps, AppState> {
             <h2 className="rounded-full items-center w-16 bg-red-600 ">a</h2>
             <p className="rounded-full items-center w-16 bg-red-600 ">GAMES</p>
             <h3 className="rounded-full items-center w-16 bg-red-600 ">shit</h3>
+            <h3 className="rounded-full items-center w-16 bg-red-600 ">shit</h3>
+            <h3 className="rounded-full items-center w-16 bg-red-600 ">shit</h3>
+            <h3 className="rounded-full items-center w-16 bg-red-600 ">shit</h3>
+            <h3 className="rounded-full items-center w-16 bg-red-600 ">shit</h3>
+            <h3 className="rounded-full items-center w-16 bg-red-600 ">shit</h3>
+            <h3 className="rounded-full items-center w-16 bg-red-600 ">shit</h3>
+            <h3 className="rounded-full items-center w-16 bg-red-600 ">shit</h3>
+            <h3 className="rounded-full items-center w-16 bg-red-600 ">shit</h3>
+            <h3 className="rounded-full items-center w-16 bg-red-600 ">shit</h3>
+            <h1>a</h1>
+            <h1>a</h1>
+            <h1>a</h1>
+            <h1>a</h1>
+            <h1>a</h1>
+            <h1>a</h1>
+            <h1>a</h1>
+            <h1>a</h1>
+            <h1>a</h1>
+            <h1>a</h1>
+            <h1>a</h1>
+            <h1>a</h1>
+            <h1>a</h1>
+            <h1>a</h1>
+            <h1>a</h1>
+            <h1>a</h1>
+            <h1>a</h1>
+            <h1>a</h1>
+            <h1>a</h1>
+            <h1>a</h1>
+            <h1>a</h1>
+            
+            <h1>a</h1>
             </div>
 
           </TabPanel>
