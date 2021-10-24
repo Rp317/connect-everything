@@ -52,19 +52,19 @@ class App extends Component<AppProps, AppState> {
           <TabPanel>
             <h1 className="text-center">test</h1>
             <div className="grid grid-cols-3 gap-x-8 gap-y-5 text-center">
-            <h1 className="rounded-full items-center w-16 bg-red-600 ">e</h1>
-            <h2 className="rounded-full items-center w-16 bg-red-600 ">a</h2>
-            <p className="rounded-full items-center w-16 bg-red-600 ">GAMES</p>
-            <h3 className="rounded-full items-center w-16 bg-red-600 ">shit</h3>
-            <h3 className="rounded-full items-center w-16 bg-red-600 ">shit</h3>
-            <h3 className="rounded-full items-center w-16 bg-red-600 ">shit</h3>
-            <h3 className="rounded-full items-center w-16 bg-red-600 ">shit</h3>
-            <h3 className="rounded-full items-center w-16 bg-red-600 ">shit</h3>
-            <h3 className="rounded-full items-center w-16 bg-red-600 ">shit</h3>
-            <h3 className="rounded-full items-center w-16 bg-red-600 ">shit</h3>
-            <h3 className="rounded-full items-center w-16 bg-red-600 ">shit</h3>
-            <h3 className="rounded-full items-center w-16 bg-red-600 ">shit</h3>
-            <h3 className="rounded-full items-center w-16 bg-red-600 ">shit</h3>
+            <h1 className="rounded-sm items-center  bg-red-600 col-span-2">e</h1>
+            <h2 className="rounded-sm items-center  bg-red-600 col-span-1">a</h2>
+            <p className="rounded-sm items-center bg-red-600 ">GAMES</p>
+            <h3 className="rounded-sm items-center  bg-red-600 ">owo</h3>
+            <h3 className="rounded-sm items-center  bg-red-600 ">owo</h3>
+            <h3 className="rounded-sm items-center  bg-red-600 ">owo</h3>
+            <h3 className="rounded-sm items-center  bg-red-600 ">owo</h3>
+            <h3 className="rounded-sm items-center  bg-red-600 ">owo</h3>
+            <h3 className="rounded-sm items-center  bg-red-600 ">owo</h3>
+            <h3 className="rounded-sm items-center  bg-red-600 ">owo</h3>
+            <h3 className="rounded-sm items-center  bg-red-600 ">owo</h3>
+            <h3 className="rounded-sm items-center  bg-red-600 ">owo</h3>
+            <h3 className="rounded-sm items-center  bg-red-600 ">owo</h3>
             <h1>a</h1>
             <h1>a</h1>
             <h1>a</h1>
